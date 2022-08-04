@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="logo.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn: sign-in or join-now</title>
+    <script src="https://kit.fontawesome.com/8213c7bb45.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav class="nav-top">
+        <img src="logo-expanded.png" alt="logo-expanded" class="logo-expanded">
+        <div class="nav-space"></div>
+        <div class="nav-menu">
+            <div class="nav-item">
+                <i class="fa fa-solid fa-compass"></i>
+                <a href="#">Discover</a>
+            </div>
+            <div class="nav-item">
+                <i class="fa fa-solid fa-person"></i>
+                <a href="#">People</a>
+            </div>
+            <div class="nav-item">
+                <i class="fa fa-solid fa-graduation-cap"></i>
+                <a href="#">Learning</a>
+            </div>
+            <div class="nav-item">
+                <i class="fa fa-solid fa-briefcase"></i>
+                <a href="#">Jobs</a>
+            </div>
+        </div>
+        <div class="join-now-sign-in">
+            <button class="join-now-sign-in-button join-now">Join Now</button>
+            <button class="join-now-sign-in-button sign-in">Sign In</button>
+        </div>
+    </nav>
+    <section class="sign-in-form-section">
+        <form action="#" class="sign-in-form">
+            <h1 class="main-heading">Welcome to your professional community</h1>
+            <div class="input-form-control">
+                <input type="text" required id="email">
+                <label class="input-placeholder  prevent-select" for="email">Email or phone number</label>
+            </div>
+            <div class="input-form-control">
+                <input type="password" required>
+                <label class="input-placeholder prevent-select" for="password">Password</label>
+                <button class="show-password" id="password">Show</button>
+            </div>
+            <div class="forgot-password">Forgot Password?</div>
+            <button type="submit" class="sign-in sign-in-submit">Sign in</button>
+            <div class="divider">
+                <div class="divider-line"></div>
+                <div class="or">or</div>
+                <div class="divider-line"></div>
+            </div>
+            <button type="submit" class="sign-in-submit"><i class="fa-brands fa-google"></i>Sign in with
+                Google</button>
+        </form>
+        <img src="banner.jpg" alt="banner" class="banner">
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
